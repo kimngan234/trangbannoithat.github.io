@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: white;
+}
+
+.Header {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: #bb7944;
+}
+.Header h1 {
+    font-size: 40px;
+}
+.Header p {
+    font-size: 20px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #bb7944;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #e3c8aa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #e3c8aa;
+    color: #a1916f;
+}
+
+.leftcolumn {
+    float: left;
+    width: 100%;
+}
+
+.rightcolumn {
+    float: right;
+    background: #c98146;
+    padding: 15px;
+    padding-left: 15px;
+}
+.images {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.card-news {
+    height: 45%;
+    background-color: #bb7944;
+    padding: 20px;
+    margin: 38px;
+    float: left;
+    font-size: 20px;
+}
+
+.card-news:hover {
+    transition: all .1s linear;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transform: scale(1.05);
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-newss>a {
+    text-decoration: underline;
+}
+
+.card-newss>a:visited {
+    color: black;
+}
+
+.card-newss>a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.card {
+    background-color: #bb7944;
+    padding: 10px;
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    padding: 8px;
+    text-align: center;
+    background: #bb7944;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    float: left;
+    width: 33.3%;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(250, 226, 183);
+}
+
+.diachi {
+    margin-top: 0px;
+    float: left;
+}
+
+.diachi ul {
+    text-align: left;
+}
+
+.diachi ul>li {
+    list-style: none;
+    font-size: 16px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 {
+    margin-left: 40px;
+    padding-bottom: 0px;
+}
+
+* {
+    margin: 0px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.noidung {
+    font-size: 20px;
+}
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    80% {margin-left: -1456px;}
+}
